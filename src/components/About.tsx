@@ -17,8 +17,8 @@ export function About() {
           <div className="relative">
             <div className="relative overflow-hidden aspect-[3/4] max-w-sm mx-auto md:mx-0">
               <img
-                src="https://cdn.poehali.dev/projects/42581af7-83ad-49bc-9de9-1800a6d19c54/files/59b2e6a4-ef80-4bf6-a690-43ebaef0e05a.jpg"
-                alt="Автор курса"
+                src="https://cdn.poehali.dev/projects/42581af7-83ad-49bc-9de9-1800a6d19c54/bucket/e50f6d5a-cdd6-4e6a-ba6f-a83717b426be.jpg"
+                alt="Владимир Попов"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute inset-0 border border-white/10" />
