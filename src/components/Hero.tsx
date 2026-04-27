@@ -1,5 +1,4 @@
 import { GL } from "./gl";
-import { Pill } from "./Pill";
 import { Button } from "./ui/button";
 import { useState } from "react";
 import { Header } from "./Header";
@@ -13,7 +12,6 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">ОНЛАЙН-КУРС</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           Организуй события <br />
           <i className="font-light">мирового</i> уровня
@@ -22,23 +20,23 @@ export function Hero() {
           Полное руководство по управлению мероприятиями — от концепции до финального аккорда
         </p>
 
-        <a className="contents max-sm:hidden" href="#program">
+        <a className="contents max-sm:hidden" href="#presentation">
           <Button
             className="mt-14"
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Записаться на курс]
+            [Получить презентацию]
           </Button>
         </a>
-        <a className="contents sm:hidden" href="#program">
+        <a className="contents sm:hidden" href="#presentation">
           <Button
             size="sm"
             className="mt-14"
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Записаться на курс]
+            [Получить презентацию]
           </Button>
         </a>
       </div>
